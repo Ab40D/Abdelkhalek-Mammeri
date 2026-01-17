@@ -1,27 +1,40 @@
+
+
 // Hamburger Menu Toggle
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navLinks');
 
-hamburger.addEventListener('click', function () {
-    hamburger.classList.toggle('active');
+hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
 // Close menu when a link is clicked
-navLinks.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', function () {
-        hamburger.classList.remove('active');
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
         navLinks.classList.remove('active');
     });
 });
 
-// Smooth scroll for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
+// Image Loading Debug & Error Handling
+const portraitImg = document.querySelector('.portrait-img');
+
+if (portraitImg) {
+    portraitImg.addEventListener('load', () => {
+        console.log('✅ Profile image loaded successfully!');
     });
-});
+
+    portraitImg.addEventListener('error', () => {
+        console.error('❌ Failed to load profile image from:', portraitImg.src);
+        console.log('Make sure profile.jpg is in the same folder as index.html');
+        
+        // Fallback: Set a placeholder background
+        portraitImg.style.backgroundColor = '#e0e0e0';
+        portraitImg.style.color = '#666';
+    });
+
+    // Log the image source for debugging
+    console.log('📸 Image source:', portraitImg.src);
+    console.log('📂 Image alt text:', portraitImg.alt);
+} else {
+    console.warn('⚠️ Portrait image element not found');
+}
