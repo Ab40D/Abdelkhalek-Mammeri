@@ -1,76 +1,63 @@
-Abdelkhalek Mammeri – Portfolio
+<h1 align="center">🌐 Abdelkhalek Mammeri — Portfolio</h1>
 
-A clean, modern portfolio website showcasing my work as a Full-Stack Developer & Electronics Engineer.
-Built using vanilla HTML, CSS, and JavaScript, with a strong focus on simplicity, performance, accessibility, and full mobile responsiveness.
+<p align="center">
+Personal portfolio website built with HTML, CSS, and JavaScript. Clean, responsive, and performance-focused.
 
 
--- Features
--- Mobile-First Design
+<a href="https://github.com/Ab40D/Abdelkhalek-Mammeri" target="_blank" rel="noopener noreferrer"><strong>🔗 View Repo »</strong></a>
 
-Fully responsive layout (mobile, tablet, desktop)
 
-Hamburger menu for compact mobile navigation
 
-Touch-friendly UI (proper spacing and button sizes)
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript badge"/>
+<img src="https://img.shields.io/badge/Responsive-Design-0A192F?style=for-the-badge" alt="Responsive design badge"/>
+</p>
 
--- Clean Architecture
+✨ Features
+📱 Responsive Design — Optimized for mobile, tablet, and desktop screens.
 
-Vanilla JavaScript — no framework bloat
+⚡ Performance-Focused — Lightweight structure for fast loading and smooth navigation.
 
-Organized, modular CSS with media queries
+🎨 Clean Interface — Minimal visual style that keeps the spotlight on content.
 
-Smooth fade-in animations and transitions
+🔄 Interactive Elements — JavaScript-powered behavior for a more dynamic user experience.
 
-Semantic HTML with accessibility in mind
+🧩 Portfolio Structure — Built to showcase identity, skills, and projects clearly.
 
--- Performance-Focused
+🛠️ Tech Stack
+Technology	Role
+HTML5	Semantic structure
+CSS3	Styling, layout, and responsiveness
+JavaScript	Interactivity and dynamic behavior
+👨‍💻 About Me
+<p align="center">
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino badge"/>
+<img src="https://img.shields.io/badge/ESP32-323232?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 badge"/>
+<img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white" alt="MQTT badge"/>
+<img src="https://img.shields.io/badge/Home%20Assistant-41BDF5?style=for-the-badge&logo=home-assistant&logoColor=white" alt="Home Assistant badge"/>
+<img src="https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=node-red&logoColor=white" alt="Node-RED badge"/>
+<img src="https://img.shields.io/badge/IoT-0078D4?style=for-the-badge" alt="IoT badge"/>
+</p>
 
-Single-page layout with smooth scrolling
+Abdelkhalek Mammeri
+Electronics engineer in the making, web developer, and IoT enthusiast from Oran, Algeria 🇩🇿
 
-Minimal dependencies (Font Awesome only)
+This portfolio reflects a mix of frontend development and embedded systems interests, with a focus on building practical, responsive, and modern digital experiences.
 
-Optimized Google Fonts with fallbacks
+🚀 Goals
+Showcase personal and academic projects.
 
-Clean, readable, and maintainable codebase
+Strengthen professional online presence.
 
--- What Was Fixed & Improved
-Previous Issues Resolved
+Expand the portfolio with more embedded and IoT work.
 
-Mobile navigation overflow → fixed with hamburger menu
+Keep improving design, performance, and usability.
 
-Non-responsive text → fixed using clamp() and media queries
+📌 Repository Purpose
+This repository serves as the source for a personal portfolio website and as a public snapshot of technical growth across web development and electronics-oriented projects.
 
-Broken hero layout → rebuilt with CSS Grid
-
-Small touch targets → minimum 48px height applied
-
-CSS duplication → cleaned and refactored
-
-Positioning conflicts → fixed z-index and stacking issues
-
-Enhancements Added
-
-Mobile nav hides links and shows 3-dot hamburger menu
-
-Name remains visible on mobile
-
-Smooth menu animations with active states
-
-Responsive font scaling
-
-Cleaner structure with zero duplicate CSS rules
-
-Improved accessibility via semantic HTML
-
--- Notes
-
-This portfolio reflects my current level and mindset.
-I spent significant time refining it, and I’ll keep improving it as I grow.
-
-The code is intentionally simple, readable, and extendable.
-
--- License & Usage
-
+<p align="center">Made with ❤️ by <a href="https://github.com/Ab40D" target="_blank" rel="noopener noreferrer">Abdelkhalek Mammeri</a></p>
 This project is released under the MIT License.
 You are free to use, modify, and learn from the code.
 
